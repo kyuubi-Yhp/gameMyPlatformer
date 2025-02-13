@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/resetstyle.css">
   <link rel="stylesheet" href="css/main.css">
   <title>GameGod</title>
 </head>
+
 <body>
-  
-<p id="hero" class="p">gooooood</p>
+
+  <div class="canvas" id="canvas">
+    <img class="fullscreen" src="fullscreen.png" id="fsBtn">
+    <div id="block__with-hero" class="block__img-hero">
+      <img id="hero__img" class="hero-picture" src="hero-sprite.png" alt="hero">
+    </div>
+    <div class="jump__block" id="jump">
+      <img class="jump__img-block" src="hero-sprite.png" alt="jump">
+      <div class="jump__block-animation">
+
+      </div>
+    </div>
+    <div class="hit__block" id="hit">
+      <img class="hit__img-block" src="hero-sprite.png" alt="jump">
+      <div class="hit__block-animation">
+
+      </div>
+    </div>
+  </div>
 
 
   <script src="script/main.js"></script>
 </body>
+
 </html>
